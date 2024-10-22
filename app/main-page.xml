@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="NativeScript App" icon="" />
+
+    <StackLayout class="p-4">
+        <Label text="{{ message }}" class="text-center text-2xl" />
+        <Button text="TAP" tap="{{ onTap }}" class="-primary mt-4" />
+    </StackLayout>
+</Page>
